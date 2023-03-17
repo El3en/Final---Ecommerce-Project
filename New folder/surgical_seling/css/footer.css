@@ -1,0 +1,135 @@
+
+
+/*-- footer --*/
+.footer{
+	background-color:black;
+	padding:3em 0 0 0;
+
+}
+.footer-grid h4{
+	color:white;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:1.2em;
+	margin-bottom:0.8em;
+}
+.footer-grid ul{
+	margin:0;
+	padding:0;
+}
+.footer-grid ul li{
+	display:block;
+}
+.footer-grid ul li a{
+	font-size:0.875em;
+	color:#fff;
+	text-decoration:none;
+	padding:0.2em 0;
+	display:inline-block;
+}
+.footer-grid ul li a:hover{
+	color:#fff;
+}
+.contact-grid ul li{
+	font-size:0.875em;
+	color:#fff;
+	padding:0.3em 0;
+}
+.contact-grid ul li span{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	background:url(../images/footer-icons.png) no-repeat 0px 0px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:0.5em;
+}
+.contact-grid ul li a{
+	font-size:1.1em;
+	display:inline-block;
+}
+.contact-grid ul li span.c-icon1{
+	background-position: 0px -25px;
+}
+.contact-grid ul li span.c-icon2{
+	background-position: 0px -49px;
+}
+
+/*-- copy-right --*/
+.copy-right{
+    background-color:brown;
+	padding:1em;
+}
+.copy-right p{
+	text-align:center;
+	color:#fff;
+	font-size:0.875em;
+	margin:0;
+	padding:0;
+}
+.copy-right p a{
+	color:#fff;
+	text-decoration:none;
+}
+.copy-right p a:hover{
+	color:#fff;
+}
+/*-- collections --*/
+.collections-head{
+	background:url(../images/collections-head-bg.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:360px;
+	padding:3em 0;
+}
+.collections-head-left{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+.collections-head-right{
+	float:right;
+	width:50%;
+}
+.collections-head-right h2{
+	margin:2.8em 0 0 3em;
+	padding:0;
+}
+.collections-head-right h2 span{
+	display:block;
+	text-transform:uppercase;
+	background:green;
+	color:#FFF;
+	font-weight:700;
+	display:inline-block;
+	margin:0 0 0.3em 0;
+	font-size:1.1em;
+	padding:0.2em 0.8em 0.2em 0.2em;
+}
+ul.social-icons{
+	margin:1em 0 0 0;
+	padding:0;
+}
+ul.social-icons li{
+	display:inline-block;
+}
+ul.social-icons li a span{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	background:url(../images/social-icons.png) no-repeat 0px 0px;
+	margin-right:0.2em;
+}
+ul.social-icons li a span.facebook{
+	background-position:0px 0px;
+}
+ul.social-icons li a span.twitter{
+	background-position: -36px 0px;
+}
+ul.social-icons li a span.thumb{
+	background-position: -72px 0px;
+}
+ul.social-icons li a:hover{
+	opacity:0.7em;
+}
